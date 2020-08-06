@@ -49,6 +49,8 @@ class Song
     song.artist_name = song_with_file_name.split(" - ")[0]
     song 
   end 
+  
+  def self
     
   binding.pry 
 
