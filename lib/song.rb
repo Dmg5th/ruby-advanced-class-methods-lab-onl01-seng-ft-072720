@@ -17,6 +17,10 @@ class Song
     @@all.push(song)
     song 
     end 
+    
+  def
+    
+    binding.pry 
 
 
 
