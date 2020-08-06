@@ -39,7 +39,7 @@ class Song
   self.find_by_name(name) || self.create_by_name(name)
   end 
   
-  def self.aplhabetical
+  def self.alphabetical
     @@all.sort_by { |song_obj| song_obj.name }  
   end 
     
