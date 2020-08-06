@@ -38,6 +38,10 @@ class Song
   def self.find_or_create_by_name(name)
   self.find_by_name(name) || self.create_by_name(name)
   end 
+  
+  def self.aplhabetical
+    @@all.sort_by { |song_obj| song_obj.name }  
+  end 
     
     #binding.pry 
 
